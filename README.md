@@ -24,8 +24,6 @@ This is a React-based application to demonstrate tax loss harvesting concepts us
 ### Installation
 
 1. Clone the repository:
-
-```bash
 git clone https://github.com/saideepsai/koinx-tax-loss-harvesting.git
 cd koinx-tax-loss-harvesting
 
