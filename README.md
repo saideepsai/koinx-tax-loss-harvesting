@@ -73,7 +73,7 @@ Folder Structure :
 Contact : 
 For questions or feedback, please contact:
 
-Sai Deep Sai
+Sai Deep
 Email: saideepduggishetty@gmail.com
 
 GitHub: https://github.com/saideepsai
