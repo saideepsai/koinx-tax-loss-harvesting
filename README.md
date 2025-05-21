@@ -75,6 +75,7 @@ For questions or feedback, please contact:
 
 Sai Deep Sai
 Email: saideepduggishetty@gmail.com
+
 GitHub: https://github.com/saideepsai
 
 Thank you for using this app!
