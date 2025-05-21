@@ -70,7 +70,7 @@ Folder Structure :
   App.js
   index.js
 
-Contact
+Contact : 
 For questions or feedback, please contact:
 
 Sai Deep Sai
