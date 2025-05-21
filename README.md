@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# KoinX Tax Loss Harvesting React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based application to demonstrate tax loss harvesting concepts using sample capital gains and holdings data. The app allows users to view pre-harvesting and post-harvesting capital gains, select holdings to harvest losses, and see estimated savings.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- View Pre-Harvesting capital gains summary (short-term and long-term profits & losses)
+- Select holdings to harvest losses
+- Dynamic Post-Harvesting summary update based on selected holdings
+- Holdings table with sortable columns, checkboxes, and "View More/Less" functionality
+- Styled with styled-components for clean UI matching the Figma design
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup Instructions
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (v14 or later recommended)
+- npm or yarn
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/saideepsai/koinx-tax-loss-harvesting.git
+cd koinx-tax-loss-harvesting
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install dependencies:
+Using npm:
+npm install
 
-### `npm run eject`
+3.Start the development server:
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This will open the app at http://localhost:3000 in your browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Usage :
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+View the Pre-Harvesting card to see your initial capital gains.
 
-## Learn More
+Select holdings from the Holdings Table to harvest losses.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Watch the After Harvesting card update dynamically.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Use the checkbox at the top to select/deselect all holdings.
 
-### Code Splitting
+Click "View More" to see all holdings.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Screenshots :
+![Screenshot 2025-05-22 022207](https://github.com/user-attachments/assets/f4274e03-8e58-474e-9c50-8d4807fca414)
+![Screenshot 2025-05-22 022228](https://github.com/user-attachments/assets/12359901-8cc2-4aad-bed8-26aabf045668)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Folder Structure :
+/public
+  capital-gains-api.json
+  holdings-api.json
+/src
+  /components
+    Header
+    TitleSection
+    Disclaimer
+    PreHarvestingCard
+    AfterHarvestingCard
+    HoldingsTable
+  /styles
+  App.js
+  index.js
 
-### Making a Progressive Web App
+Contact
+For questions or feedback, please contact:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Sai Deep Sai
+Email: saideepduggishetty@gmail.com
+GitHub: https://github.com/saideepsai
 
-### Advanced Configuration
+Thank you for using this app!
+Happy harvesting! 🌿💰
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
